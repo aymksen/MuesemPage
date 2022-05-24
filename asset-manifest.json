@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/MuesemPage/static/css/main.91e2bee4.css",
+    "main.js": "/MuesemPage/static/js/main.3a119c69.js",
+    "static/js/787.28cb0dcd.chunk.js": "/MuesemPage/static/js/787.28cb0dcd.chunk.js",
+    "index.html": "/MuesemPage/index.html",
+    "main.91e2bee4.css.map": "/MuesemPage/static/css/main.91e2bee4.css.map",
+    "main.3a119c69.js.map": "/MuesemPage/static/js/main.3a119c69.js.map",
+    "787.28cb0dcd.chunk.js.map": "/MuesemPage/static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.91e2bee4.css",
+    "static/js/main.3a119c69.js"
+  ]
+}
