@@ -1,5 +1,5 @@
 .map{
-    
+  height: 100%;
   overflow-x:hidden ;
   position: relative;
       iframe{
@@ -15,9 +15,14 @@
         margin: 20px 10px 20px 10px;
         
         }
+        p{
     font-size: 20px;
     font-weight: 500;
-    color:#3D5AF5;
-        
+    color:#080074;
+    position: absolute;
+    top: 95%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
       
 }
