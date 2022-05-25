@@ -1,0 +1,88 @@
+.contact{
+    height: 100%;
+    position: relative;
+    .container{
+        overflow-x:hidden ;
+        width: 80%;
+        height: 80%;
+        color: rgb(255, 255, 255);
+        background-color: rgb(32, 47, 48,0.2);
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        border-radius: 20px;
+        padding: 20px;
+        padding-top:10px;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 26px;
+        position:absolute;
+        align-items: center;
+        padding: 20px 20px 20px 20px;
+        text-align: center;
+        .input100{
+            width: 70%;
+            height: 50px;
+            font-size: 25px;
+            border-radius: 10px;
+            border: solid rgb(255, 255, 255) 1px;
+            color:rgb(0, 0, 121);
+            
+           margin-bottom: 10px;
+           margin-top: 5px;
+        }
+        .input100:focus, input:focus{
+            outline: rgb(0, 26, 99) 2px;
+            outline-style: solid;
+        }
+        .message{
+            height: 200px;
+            resize: none;
+            &::-webkit-scrollbar{
+                width: 10px;
+                //background-color: rgb(0, 11, 71);
+            }
+            &::-webkit-scrollbar-thumb {
+                direction:rtl;
+                border-radius: 5px;
+                background: rgb(0, 72, 150);
+              }
+        
+            > *{
+                border-radius: 5px;
+                padding-top: 20px;
+                
+                scroll-snap-align: start;
+            }
+        }
+        .sumbit{
+            width: 70%;
+            height: 50px;
+            border-radius: 10px;
+            border: none;
+            color:rgb(255, 255, 255);
+            font-size: 20px;
+           background-color: rgb(45, 77, 255);
+           &:hover{
+               background-color:rgb(0, 13, 85);
+           }
+           margin-bottom: 20px;
+        }
+
+        &::-webkit-scrollbar{
+            width: 10px;
+            //background-color: rgb(0, 11, 71);
+        }
+        &::-webkit-scrollbar-thumb {
+            direction:rtl;
+            border-radius: 5px;
+            background: rgb(230, 242, 255);
+          }
+    
+        > *{
+            border-radius: 5px;
+            padding-top: 20px;
+            
+            scroll-snap-align: start;
+        }
+    }
+}
