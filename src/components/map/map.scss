@@ -1,8 +1,12 @@
 .map{
     
   overflow-x:hidden ;
+  position: relative;
       iframe{
-        top: 20px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
         border-radius: 20px;
         box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
         border: none;
