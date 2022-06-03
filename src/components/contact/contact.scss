@@ -19,15 +19,18 @@
         align-items: center;
         padding: 20px 20px 20px 20px;
         text-align: center;
+        font-size:calc(25px + 1vw);
+        
         .input100{
-            width: 70%;
+            
+            width: calc(100px + 50vw);
             height: 50px;
             font-size: 25px;
             border-radius: 10px;
             border: solid rgb(255, 255, 255) 1px;
             color:rgb(0, 0, 121);
             
-           margin-bottom: 10px;
+           margin-bottom: 20px;
            margin-top: 5px;
         }
         .input100:focus, input:focus{
@@ -55,7 +58,7 @@
             }
         }
         .sumbit{
-            width: 70%;
+            width: calc(100px + 50vw);
             height: 50px;
             border-radius: 10px;
             border: none;
@@ -65,7 +68,7 @@
            &:hover{
                background-color:rgb(0, 13, 85);
            }
-           margin-bottom: 20px;
+           margin-bottom: 10px;
         }
 
         &::-webkit-scrollbar{
@@ -85,4 +88,13 @@
             scroll-snap-align: start;
         }
     }
+    @media only screen and (max-width: 700px) {
+        .container{
+            min-width: 95%;
+            padding: 10px;
+            padding-top:10px;
+            height: 80%;
+            margin-top: 20px;
+        }
+      }
 }

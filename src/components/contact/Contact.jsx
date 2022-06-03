@@ -38,24 +38,24 @@ export default function Contact (){
          <form ref={form} onSubmit={sendEmail}>
               <div class="formWord">
                 <h2>Contact us !</h2>
-                <span>Full Name</span>
-                <br />
+               
+                
                 <input class="input100" placeholder="name" type="text" name="fullName" required />
-                <br />
-                <span>Phone Number</span>
-                <br />
+                
+                
+                
                 <input class="input100" type="tel" placeholder="Phone Number (optional)" name="phone"/>
-                <br />
-                <span>Enter Email</span>
-                <br />
+                
+                
+                
                 <input class="input100"  placeholder="Email Address" type="email" name="email" required />
-                <br />
+                
               </div>
               <div class="formWord">
-                <span>Message</span>
-                <br />
+                
+                
                 <textarea class="input100 message" name="message" placeholder="message...." required></textarea>
-                <br />
+                
                 <button class="sumbit" value="Send">SUBMIT</button>
 
                 <div class="row">

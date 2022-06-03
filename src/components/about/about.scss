@@ -34,4 +34,13 @@
             scroll-snap-align: start;
         }
     }
+    @media only screen and (max-width: 700px) {
+        .container{
+            min-width: 95%;
+            padding: 10px;
+            padding-top:10px;
+            height: 85%;
+            margin-top: 20px;
+        }
+      }
 }
